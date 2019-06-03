@@ -3,3 +3,49 @@
 @yellow: #f8df1f;
 @red: #ee252f;
 @black: #080801;
+@font-black: #050500;
+
+// Font Styles
+@main-font: "Roboto";
+
+.heading {
+	font-family: @main-font;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.heading1 {
+	.heading();
+	color: @font-black;
+	text-transform: uppercase;
+}
+
+.heading-lower {
+	.heading();
+	color: @font-black;
+}
+
+.heading-span {
+	.heading();
+	color: @red;
+	text-transform: uppercase;
+}
+
+.para {
+	font-family: @main-font;
+	font-size: 16px;
+	color: @font-black;
+	font-weight: 400;
+}
+
+.links {
+	font-family: @main-font;
+	font-size: 18px;
+	color: @font-black;
+	font-weight: 500;
+}
+
+.link-upper {
+	.links();
+	text-transform: uppercase;
+}
