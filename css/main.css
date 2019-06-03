@@ -53,6 +53,9 @@
   background-color: #f8df1f;
   padding: 1%;
 }
+img {
+  max-width: 100%;
+}
 button {
   font-family: "Roboto";
   font-size: 18px;
@@ -116,4 +119,11 @@ section p {
 section img {
   margin: auto;
   display: block;
+}
+section:last-of-type {
+  background-color: #f3f3f3;
+}
+footer {
+  background-color: #080801;
+  border-top: #f8df1f solid 5px;
 }

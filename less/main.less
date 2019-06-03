@@ -1,6 +1,10 @@
 // Import variables.less
 @import "variables";
 
+// Image Styles
+img {
+	max-width: 100%;
+}
 // Button Styles
 button {
 	.button();
@@ -54,6 +58,15 @@ section {
 		margin: auto;
 		display: block;
 	}
+}
 
+section:last-of-type {
+	background-color: @gray;
 }
 // End Main Content Styles
+
+// Footer Styles
+footer {
+	background-color: @black;
+	border-top: @yellow solid 5px;
+}
