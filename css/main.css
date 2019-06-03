@@ -1,0 +1,52 @@
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+}
+.heading1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  color: #050500;
+  text-transform: uppercase;
+}
+.heading-lower {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  color: #050500;
+}
+.heading-span {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  color: #ee252f;
+  text-transform: uppercase;
+}
+.para {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #050500;
+  font-weight: 400;
+}
+.links {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+}
+.link-upper {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.button {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
