@@ -76,8 +76,8 @@ nav a:hover {
   color: #050500;
   font-weight: 500;
 }
-nav span a:link,
-nav span a:hover {
+nav #upper-link a:link,
+nav #upper-link a:hover {
   font-family: "Roboto";
   font-size: 18px;
   color: #050500;
