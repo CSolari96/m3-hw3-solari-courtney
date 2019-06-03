@@ -89,8 +89,11 @@ nav #upper-link a:hover {
   color: #ee252f;
 }
 header {
-  background-image: url("../img/banner-bg.png");
+  background: linear-gradient(rgba(59, 56, 56, 0.33), rgba(59, 56, 56, 0.33)), url("../img/banner-bg.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  color: #fff;
 }
 header img {
   display: block;
