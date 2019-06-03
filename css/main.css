@@ -89,6 +89,10 @@ header {
   background-image: url("../img/banner-bg.png");
   background-size: cover;
 }
+header img {
+  display: block;
+  margin: auto;
+}
 section h2 {
   font-family: "Roboto";
   font-size: 30px;
