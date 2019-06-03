@@ -81,3 +81,7 @@ nav span a:hover {
   text-transform: uppercase;
   color: #ee252f;
 }
+header {
+  background-image: url("../img/banner-bg.png");
+  background-size: cover;
+}
